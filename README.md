@@ -1,2 +1,4 @@
-![image](https://github.com/kumarkse/SymptoScan/assets/109473805/b6030457-7a7d-4e5e-86a2-ffc892e7a206)
-![image](https://github.com/kumarkse/SymptoScan/assets/109473805/1a976b3c-4226-4c72-ae7a-e845bed23b0f)
+![image](https://github.com/kumarkse/SymptoScan/assets/109473805/1ac6eab6-f72c-4b0f-a7ae-abbad7f1f0c3)
+
+![image](https://github.com/kumarkse/SymptoScan/assets/109473805/a3a99438-65f6-4d11-9f1c-59ae4effee4a)
+
