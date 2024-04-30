@@ -21,8 +21,7 @@ st.markdown("""
             left: 0;
             width: 100%;
             background-color: #0e1117;
-            margin:25px 0;
-            padding: 10px 0;
+            margin:25px 0 0 0;
             text-align: center;
             color: white;
             z-index: 1000;
@@ -30,11 +29,19 @@ st.markdown("""
         .pred {
             text-align:center;
         }
+        .tt{
+            font-size:10px;
+        }
+        .st-emotion-cache-gh2jqd {
+        width: 100%;
+        padding: 6rem 1rem 1rem;
+        max-width: 46rem;
+        }
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 class='title' style='text-align: center; color: white;'><font size=50>SymptoSCAN</font></h1>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center; color: white;'>Enter your top 5 symptoms <font size=2>(max.)</font></h4>", unsafe_allow_html=True)
+st.markdown("<div class='title' style='text-align: center; color: white;'><font size=50>SymptoSCAN</font><br>Enter your top 5 symptoms <font size=2>(max.)</font></div>", unsafe_allow_html=True)
+# st.markdown("<div style='text-align: center; color: white;'>Enter your top 5 symptoms <font size=2>(max.)</font></div>", unsafe_allow_html=True)
 
 selected_symptoms = []
 for i in range(5):
