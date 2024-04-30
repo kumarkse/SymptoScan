@@ -21,7 +21,7 @@ st.markdown("""
             left: 0;
             width: 100%;
             background-color: #0e1117;
-            margin:15px 0;
+            margin:25px 0;
             padding: 10px 0;
             text-align: center;
             color: white;
@@ -37,7 +37,6 @@ st.markdown("<h1 class='title' style='text-align: center; color: white;'><font s
 st.markdown("<h4 style='text-align: center; color: white;'>Enter your top 5 symptoms <font size=2>(max.)</font></h4>", unsafe_allow_html=True)
 
 selected_symptoms = []
-flag=False
 for i in range(5):
     options = [symptom for symptom in labels if symptom not in selected_symptoms]
     
@@ -52,5 +51,6 @@ predict = st.button("predict")
 if predict: 
     results = do_prediction(selected_symptoms)
     for i in results:
-        st.markdown(f"<h2 class='pred'>{i}</h2>", unsafe_allow_html=True)
+        st.markdown(f"<h3 class='pred'><u>{i}</u></h3>", unsafe_allow_html=True)
+
 
